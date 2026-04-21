@@ -22,7 +22,7 @@ This dashboard quantifies:
 - Churn impact rate
 - Estimated recoverable revenue
 
-![dashboard](03_assets\dashboard.png)
+![dashboard](03_assets/dashboard.png)
 > KPI view showing exposed revenue, churn impact, and estimated recovery opportunity.
 
 ## Methodology
@@ -61,7 +61,7 @@ CASE
     ELSE 'Long Tail'
 END AS pareto_segment
 ```
-![lorenz_Curve](03_assets\lorenz_curve.png)
+![lorenz_Curve](03_assets/lorenz_curve.png)
 > Confirms that a small percentage of customers drives a disproportionate share of total revenue.
 
 ### 3. Churn Segmentation
@@ -136,7 +136,7 @@ CASE
 END AS experiment_group
 ```
 
-![recovery_targets](03_assets\recovery_targets.png)
+![recovery_targets](03_assets/recovery_targets.png)
 > Displays high-priority customers selected for winback intervention.
 
 ## Key Insights
