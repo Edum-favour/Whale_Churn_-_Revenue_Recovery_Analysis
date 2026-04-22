@@ -1,11 +1,12 @@
 # Whale Churn & Revenue Recovery Analysis
 
 ## Problem Statement
-Revenue was growing, but not as fast as expected, despite strong customer acquisition.
+Revenue growth was underperforming despite strong customer acquisition.
 
-A deeper investigation revealed a critical risk:
-- High-value customers ("whales") have been quietly churning
+Further analysis revealed a critical risk:
+- High-value customers ("whales") were quietly churning
 - A significant share of total revenue is concentrated among these customers
+- This has already resulted in ₦873M in lost revenue within this segment
 
 ## Objective
 Build a data-driven framework to:
@@ -144,7 +145,13 @@ END AS experiment_group
 - ₦873M (43.5%) in revenue has been lost due to silent churn among high-value customers
 - Churn is primarily driven by declining engagement and missed intervention windows
 - ₦68.14M represents baseline recoverable revenue based on historical recovery benchmarks
-- Targeted winback strategies and controlled experimentation are deployed to unlock incremental recovery beyond this baseline
+
+
+## Operational Recommendations
+-  Prioritize Tier 1 "Urgent Winback" customers to maximize immediate revenue recovery impact
+-  Deploy targeted winback strategies across high-value churn segments to capture incremental recovery beyond the baseline
+- Measure incremental recovery uplift and validate strategy effectiveness using an 80/20 test-control framework
+- Continuously optimize winback interventions based on observed performance and uplift results
 
 
 ## Tools & Technologies
